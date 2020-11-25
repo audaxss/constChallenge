@@ -34,7 +34,7 @@ img {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr repeat(2, 45rem) 1fr;
+    grid-template-columns: 1fr repeat(2, minmax(40rem, 45rem)) 1fr;
 }
 
 .header {
