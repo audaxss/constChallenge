@@ -269,6 +269,10 @@ img {
     text-transform: lowercase;
 }
 
+.input-group input[type="text"] {
+    text-transform: capitalize;
+}
+
 .input-group input,
 .input-group textarea {
     resize: none;
